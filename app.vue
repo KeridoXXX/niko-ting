@@ -41,7 +41,7 @@
               :name="'ekspiditioner' + day"
               placeholder="Indtast ekspiditioner"
               v-model.number="ekspiditioner[day - 1]"
-              class="p-2 border border-gray-300 rounded flex-1"
+              class="p-2 border border-gray-300 rounded flex-1 max-w-[100px]"
             />
             </div>
 
