@@ -19,7 +19,7 @@
     </div>
 
     <div>
-      <form class="flex flex-col items-center gap-4" @submit.prevent="calculateTotals">
+      <form class="flex flex-col items-center gap-4 px-4" @submit.prevent="calculateTotals">
         <div class="flex flex-col mb-4" v-for="day in selectedMonth.dage" :key="day">
           <span class="font-medium">{{ day }}. {{ selectedMonth.name }}</span>
           <div class="flex gap-2">
